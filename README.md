@@ -33,7 +33,7 @@ python clockTree_blif.py *<blif_netlist_file> <LEF> <buffer_type> <input_pin> <o
 
 **clock_signal**: clock signal name as specified in the blif netlist
 
-**scriptsDir**: path to >CTS scripts 
+**scriptsDir**: path to > CTS scripts 
 folder
 
 
@@ -42,7 +42,7 @@ folder
 
 ### Usage
 
-./rc2dly *-r <rc> -l <liberty> -s <spef>*
+./rc2dly -r <rc> -l <liberty> -s <spef>
 
 **rc**: rc file name
 
