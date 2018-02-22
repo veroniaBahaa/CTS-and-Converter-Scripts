@@ -30,4 +30,3 @@ output_pin: output pin name of the buffer specified in buffer_type
 clock_signal: clock signal name as specified in the blif netlist
 
 scriptsDir: path to "CTS scripts" folder
-
