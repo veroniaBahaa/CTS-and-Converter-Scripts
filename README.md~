@@ -33,7 +33,8 @@ python clockTree_blif.py *<blif_netlist_file> <LEF> <buffer_type> <input_pin> <o
 
 **clock_signal**: clock signal name as specified in the blif netlist
 
-**scriptsDir**: path to "CTS scripts" folder
+**scriptsDir**: path to >CTS scripts 
+folder
 
 
 ## RC2spef converter:

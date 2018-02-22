@@ -37,6 +37,7 @@ python clockTree_blif.py *<blif_netlist_file> <LEF> <buffer_type> <input_pin> <o
 folder
 
 
+
 ## RC2spef converter:
 
 ### Usage
@@ -49,3 +50,10 @@ folder
 
 **spef**: output spef file name
 
+
+
+## blif2def converter:
+
+### Usage
+
+python blif2def.py *<blif file name> <lef file name> <utilization> <aspect ratio>*
