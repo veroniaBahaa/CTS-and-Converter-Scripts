@@ -1,32 +1,39 @@
-CTS
+#CTS-and-Converter-Scripts
 
-Setup
+This repo includes scripts for clock tree synthesis, rc2spef conversion, blif2def conversion
 
-1- Download Graywolf https://github.com/rubund/graywolf
+##Clock Tree Synthesis (CTS):
 
-2- Compile and install Graywolf.
+###Setup
 
-cmake .
+1. Download Graywolf https://github.com/rubund/graywolf
 
-make
+2. Compile and install Graywolf.
 
-sudo make install    
+ - cmake .
+
+ - make
+
+ - sudo make install
 
 
-Usage
+###Usage
 
-python clockTree_blif.py <blif_netlist_file> <LEF> <buffer_type> <input_pin> <output_pin> <clock_signal> <scriptsDir>
+python clockTree_blif.py *<blif_netlist_file> <LEF> <buffer_type> <input_pin> <output_pin> <clock_signal> <scriptsDir>*
 
-blif_netlist_file: path to the netlist required to be placed in blif format
+**blif_netlist_file**: path to the netlist required to be placed in blif format
 
-LEF: path to LEF file
+**LEF**: path to LEF file
 
-buffer_type: Buffer used in clock tree (for example: BUFX2)
+**buffer_type**: Buffer used in clock tree (for example: BUFX2)
 
-input_pin: input pin name of the buffer specified in buffer_type
+**input_pin**: input pin name of the buffer specified in buffer_type
 
-output_pin: output pin name of the buffer specified in buffer_type
+**output_pin**: output pin name of the buffer specified in buffer_type
 
-clock_signal: clock signal name as specified in the blif netlist
+**clock_signal**: clock signal name as specified in the blif netlist
 
-scriptsDir: path to "CTS scripts" folder
+**scriptsDir**: path to "CTS scripts" folder
+========================================================================================================================
+##RC2spef converter:
+
