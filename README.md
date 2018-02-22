@@ -1,6 +1,6 @@
 # CTS-and-Converter-Scripts
 
-This repo includes scripts for clock tree synthesis, rc2spef conversion, blif2def conversion
+This repo includes scripts for clock tree synthesis, power network synthesis, rc2spef conversion, blif2def conversion
 
 ## Clock Tree Synthesis (CTS):
 
@@ -56,4 +56,4 @@ folder
 
 ### Usage
 
-python blif2def.py *<blif file name> <lef file name> <utilization> <aspect ratio>*
+python blif2def.py <blif_file_name> <lef_file_name> <utilization> <aspect_ratio>
