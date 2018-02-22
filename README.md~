@@ -1,10 +1,10 @@
-#CTS-and-Converter-Scripts
+# CTS-and-Converter-Scripts
 
 This repo includes scripts for clock tree synthesis, rc2spef conversion, blif2def conversion
 
-##Clock Tree Synthesis (CTS):
+## Clock Tree Synthesis (CTS):
 
-###Setup
+### Setup
 
 1. Download Graywolf https://github.com/rubund/graywolf
 
@@ -17,7 +17,7 @@ This repo includes scripts for clock tree synthesis, rc2spef conversion, blif2de
  - sudo make install
 
 
-###Usage
+### Usage
 
 python clockTree_blif.py *<blif_netlist_file> <LEF> <buffer_type> <input_pin> <output_pin> <clock_signal> <scriptsDir>*
 
@@ -35,5 +35,15 @@ python clockTree_blif.py *<blif_netlist_file> <LEF> <buffer_type> <input_pin> <o
 
 **scriptsDir**: path to "CTS scripts" folder
 ========================================================================================================================
-##RC2spef converter:
+## RC2spef converter:
+
+### Usage
+
+./rc2dly *-r <rc> -l <liberty> -s <spef>*
+
+**rc**: rc file name
+
+**liberty**: stdcell liberty file_name
+
+**spef**: output spef file name
 
