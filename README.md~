@@ -84,5 +84,5 @@ python blif2def.py <blif_file_name> <lef_file_name> <utilization> <aspect_ratio>
 
 ### Usage
 
-python sdf.py <designName> <earlyLib> <lateLib> <clk> <[output_ports]>"
+python sdf.py <design_Name> <earlyLib> <lateLib> <clk> <output_ports>
 
