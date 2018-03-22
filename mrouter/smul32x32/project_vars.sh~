@@ -1,0 +1,34 @@
+#!/bin/tcsh -f
+#------------------------------------------------------------
+# project variables for project /home/veronia/EDA/qflow-1.2.10/workspace/smul32x32
+#------------------------------------------------------------
+
+# Synthesis command options:
+# -------------------------------------------
+# set yosys_options =
+# set yosys_script =
+# set yosys_debug =
+# set abc_script =
+# set nobuffers =
+# set nofanout =
+# set fanout_options = "-l 200 -c 50"
+
+# Placement command options:
+# -------------------------------------------
+# set initial_density =
+# set graywolf_options =
+# set addspacers_options =
+
+# Router command options:
+# -------------------------------------------
+# set route_show =
+# set route_layers =
+# set via_use =
+# set via_stacks =
+# set qrouter_options =
+
+# Minimum period of the clock use "--period value" (value in ps)
+set addspacers_options = "-stripe 10 40 P"
+
+#------------------------------------------------------------
+

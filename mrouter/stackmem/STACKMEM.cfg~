@@ -1,0 +1,26 @@
+# qrouter runtime script for project STACKMEM
+
+verbose 1
+read_lef /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef
+catch {layers 4}
+via stack 2
+vdd vdd
+gnd gnd
+obstruction -1.6 423.0 339.2 424.0 metal1
+obstruction -1.6 -2.0 339.2 1.0 metal1
+obstruction -1.6 -2.0 0.8 424.0 metal1
+obstruction 339.37 -2.0 339.2 424.0 metal1
+obstruction 0.8 423.0 339.37 424.0 metal3
+obstruction 0.8 -2.0 339.37 1.0 metal3
+obstruction -1.6 1.0 0.8 423.0 metal2
+obstruction 339.37 1.0 339.2 423.0 metal2
+obstruction -1.6 1.0 0.8 423.0 metal4
+obstruction 339.37 1.0 339.2 423.0 metal4
+read_def STACKMEM.def
+#stage1
+#stage2
+#stage3
+failing
+qrouter::standard_route
+qrouter::write_delays STACKMEM.rc
+quit

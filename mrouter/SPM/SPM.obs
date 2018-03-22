@@ -1,0 +1,10 @@
+obstruction -6.4 223.0 331.2 226.0 metal1
+obstruction -6.4 -6.0 331.2 1.0 metal1
+obstruction -6.4 -6.0 0.8 226.0 metal1
+obstruction 327.2 -6.0 331.2 226.0 metal1
+obstruction 0.8 223.0 327.2 226.0 metal3
+obstruction 0.8 -6.0 327.2 1.0 metal3
+obstruction -6.4 1.0 0.8 223.0 metal2
+obstruction 327.2 1.0 331.2 223.0 metal2
+obstruction -6.4 1.0 0.8 223.0 metal4
+obstruction 327.2 1.0 331.2 223.0 metal4

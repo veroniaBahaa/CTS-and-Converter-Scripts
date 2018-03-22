@@ -1,0 +1,14 @@
+usage:  mrouter [switches...]
+switches:
+      -c <file>		Configuration file name if not route.cfg
+      -v <level>	Verbose output level
+      -i <file>		Print route names and pitches and exit
+      -p <name>		Specify global power bus name
+      -g <name>		Specify global ground bus name
+      -r <int>		Specify output resolution
+      -h 		Print help message
+      -f 		Force routable
+      -k <int>		Set number of tries
+      -q <design_name>	Qrouter compatibility mode
+     
+
