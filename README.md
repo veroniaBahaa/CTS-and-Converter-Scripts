@@ -71,18 +71,18 @@ python blif2def.py <blif_file_name> <lef_file_name> <utilization> <aspect_ratio>
 
 **Input metal 2**: input metal 2 type used at ring (example: metal2)
 
-**Input via**: input via type used to connect metals (example:M2_M1)
+**Input via**: input via type used to connect metals (example: M2_M1)
 
 **Input distance from core area**: distance of output ring from core area in the def file (example: -280)
 
 **Input width of metal**: width of metal 1 and metal 2 (example: 120)
 
-**Input space between ground and vdd rings**: distance between rings (example:20)
+**Input space between ground and vdd rings**: distance between rings (example: 20)
 
 
 ## SDF:
 
 ### Usage
 
-python sdf.py <designName> <earlyLib> <lateLib> <clk> [output ports]"
+python sdf.py <designName> <earlyLib> <lateLib> <clk> <[output_ports]>"
 
