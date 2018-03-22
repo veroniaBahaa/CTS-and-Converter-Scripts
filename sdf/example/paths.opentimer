@@ -1,0 +1,99 @@
+  ____              _______              
+ / __ \___  ___ ___/_  __(_)_ _  ___ ____
+/ /_/ / _ \/ -_) _ \/ / / /  ' \/ -_) __/
+\____/ .__/\__/_//_/_/ /_/_/_/_/\__/_/       version 1.0.5
+    /_/                                     
+Copyright (c) 2016, Tsung-Wei Huang and Martin D. F. Wong,
+University of Illinois at Urbana-Champaign (UIUC), IL, USA.
+All rights reserved.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+For bug reporting instructions and manual for OpenTimer, please see:
+<http://web.engr.illinois.edu/~thuang19>
+For help, type "help".
+OpenTimer> set_num_threads 1
+OpenTimer> set_early_celllib_fpath simple_Early.lib
+OpenTimer> set_late_celllib_fpath simple_Late.lib
+OpenTimer> set_spef_fpath default.spef
+OpenTimer> set_verilog_fpath simple.v
+OpenTimer> set_timing_fpath simple.timing
+OpenTimer> init_timer
+OpenTimer> report_timer
+Timer                   : OpenTimer 1.0.5
+Num of pins             : 17
+Num of nets             : 8
+Num of tests            : 2
+Num of gates            : 5
+Num of nodes            : 17
+Num of node indices     : 17
+Num of edges            : 17
+Num of jumps            : 0
+Num of primary inputs   : 3
+Num of primary outputs  : 1
+Num of clock tree nodes : 2
+Num of clock tree levels: 1
+OpenTimer> report_worst_paths -numPaths 100000
+report_worst_paths 8
+Path 1: Setup -101.825 6 L
+f1:d R
+u4:o R
+u4:a F
+u1:o F
+u1:b R
+inp2 R
+Path 2: Setup -101.825 6 L
+f1:d R
+u4:o R
+u4:a F
+u1:o F
+u1:a R
+inp1 R
+Path 3: Setup -58.094 6 L
+f1:d R
+u4:o R
+u4:b F
+f1:q F
+f1:ck R
+iccad_clk R
+Path 4: RAT -45.008 8 L
+out R
+u3:o R
+u3:a F
+u2:o F
+u2:a R
+f1:q R
+f1:ck R
+iccad_clk R
+Path 5: RAT -45.008 8 L
+out F
+u3:o F
+u3:a R
+u2:o R
+u2:a F
+f1:q F
+f1:ck R
+iccad_clk R
+Path 6: Setup -27.176 6 L
+f1:d F
+u4:o F
+u4:a R
+u1:o R
+u1:b F
+inp2 F
+Path 7: Setup -27.176 6 L
+f1:d F
+u4:o F
+u4:a R
+u1:o R
+u1:a F
+inp1 F
+Path 8: Setup -18.224 6 L
+f1:d F
+u4:o F
+u4:b R
+f1:q R
+f1:ck R
+iccad_clk R
+OpenTimer> 
