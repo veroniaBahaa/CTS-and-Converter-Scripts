@@ -58,16 +58,24 @@ folder
 
 python blif2def.py <blif_file_name> <lef_file_name> <utilization> <aspect_ratio>
 
+
 ## Power Synthesis:
 
 ### Inputs with examples:
 
-**Input DEF path**:
-**Input Output path**: C:/Users/ziad/Documents/out.def
-**Input metal 1**: metal1   //input metal 1 type used at ring
-**Input metal 2**: metal2  //input metal 2 type used at ring
-**Input via**: M2_M1   //input via type used to connect metals
-**Input distance from core area**: -280  //this is the distance of output ring from core area in he def file
-**Input width of metal**: 120   //width of metal 1 and metal 2
-**Input space between ground and vdd rings**: 20   //distance between rings
+**Input DEF path**: (example: in.def)
+**Input Output path**: (example: out.def)
+**Input metal 1**: input metal 1 type used at ring (example: metal1)
+**Input metal 2**: input metal 2 type used at ring (example: metal2)
+**Input via**: input via type used to connect metals (example:M2_M1)
+**Input distance from core area**: distance of output ring from core area in the def file (example: -280)
+**Input width of metal**: width of metal 1 and metal 2 (example: 120)
+**Input space between ground and vdd rings**: distance between rings (example:20)
+
+
+## SDF:
+
+### Usage
+
+python sdf.py <designName> <earlyLib> <lateLib> <clk> \[output ports\]"
 
