@@ -45,13 +45,13 @@ python clockTree_blif.py \<blif_netlist_file\> \<LEF\> \<buffer_type\> \<input_p
 ### Examples:
 
 
-####SPM
-
-Inputs: SPM.blif, osu035_stdcells.lef
+#### SPM
 
 command:
 
 python clockTree_blif.py ./examples/SPM/SPM.blif ./scripts/osu035_stdcells.lef BUFX2 A Y clk ./scripts
+
+Inputs: SPM.blif, osu035_stdcells.lef
 
 Outputs:
 
@@ -64,13 +64,13 @@ SPM_def: final placement of all design cells plus clock-tree buffers
 SPM_route: routed def file using qrouter
 
 
-####map
-
-Inputs: map.blif, osu035_stdcells.lef
+#### map
 
 command:
 
 python clockTree_blif.py ./examples/map/map.blif ./scripts/osu035_stdcells.lef BUFX2 A Y clock ./scripts
+
+Inputs: map.blif, osu035_stdcells.lef
 
 Outputs:
 
@@ -98,11 +98,14 @@ map_route: routed def file using qrouter
 
 ### Example:
 
+command:
+
+./rc2spef -r ./example/map.rc -l .example/osu035_stdcells.lib -s ./example/map.spef
+
 Inputs: map.rc, osu035_stdcells.lib
 
 Output: map.spef
 
-./rc2spef -r ./example/map.rc -l .example/osu035_stdcells.lib -s ./example/map.spef
 
 
 
@@ -142,19 +145,24 @@ python sdf.py <design_name> <early_lib> <late_lib> <clk_signal> <output_ports>
 
 ### Example
 
+Command:
+
+python sdf.py simple simple_Early.lib simple_Late.lib iccad_clk out
+
 Inputs: simple.v, simple_Early.lib, simple_Late.lib
 
 Outputs: output sdf is generated as out.sdf
 
-Command:
-
-python sdf.py simple simple_Early.lib simple_Late.lib iccad_clk out
 
 
 
 ## mrouter: 
 
 ### Example:
+
+command:
+
+mrouter -v 1 -c ./6502/ALU6502.cfg -p vdd -g gnd -q ALU6502_unroute.def
 
 Inputs:
 
@@ -165,8 +173,6 @@ ALU6502_unroute.def: DEF file to be routed
 Output:
 
 ALU6502_unroute_route.def: routed DEF file
- 
-mrouter -v 1 -c ./6502/ALU6502.cfg -p vdd -g gnd -q ALU6502_unroute.def
 
 mrouter can be downloaded from http://wrcad.com/freestuff.html
 
