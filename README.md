@@ -4,6 +4,12 @@ This repo includes scripts for clock tree synthesis, power network synthesis, rc
 
 ## Clock Tree Synthesis (CTS):
 
+CTS works in 3 steps:
+
+1. Placement of all design cells. Positions of all Flip-flops are recorded and fixed for all coming steps.
+2. Placement of Flip-flops and clock-tree buffers only. Clock-tree buffers are constructed as a binary tree. Positions of clock-tree buffers are recored and fixed for the coming step.
+3. Placement of all design cells and clock-tree buffers. 
+
 ### Setup
 
 1. Download Graywolf https://github.com/rubund/graywolf
@@ -33,8 +39,48 @@ python clockTree_blif.py \<blif_netlist_file\> \<LEF\> \<buffer_type\> \<input_p
 
 **clock_signal**: clock signal name as specified in the blif netlist
 
-**scriptsDir**: path to CTS scripts 
-folder
+**scriptsDir**: path to CTS scripts folder
+
+
+### Examples:
+
+
+####SPM
+
+Inputs: SPM.blif, osu035_stdcells.lef
+
+command:
+
+python clockTree_blif.py ./examples/SPM/SPM.blif ./scripts/osu035_stdcells.lef BUFX2 A Y clk ./scripts
+
+Outputs:
+
+SPM_step1.def: def file with placement of all design cells
+
+SPM_step2.def: def file with placement of design Flip-flops and added clock-tree buffers
+
+SPM_def: final placement of all design cells plus clock-tree buffers
+
+SPM_route: routed def file using qrouter
+
+
+####map
+
+Inputs: map.blif, osu035_stdcells.lef
+
+command:
+
+python clockTree_blif.py ./examples/map/map.blif ./scripts/osu035_stdcells.lef BUFX2 A Y clock ./scripts
+
+Outputs:
+
+map_step1.def: def file with placement of all design cells
+
+map_step2.def: def file with placement of design Flip-flops and added clock-tree buffers
+
+map_def: final placement of all design cells plus clock-tree buffers
+
+map_route: routed def file using qrouter
 
 
 
@@ -42,13 +88,21 @@ folder
 
 ### Usage
 
-./rc2dly -r \<rc\> -l \<liberty\> -s \<spef\>
+./rc2spef -r \<rc\> -l \<liberty\> -s \<spef\>
 
 **rc**: rc file name
 
 **liberty**: stdcell liberty file_name
 
 **spef**: output spef file name
+
+### Example:
+
+Inputs: map.rc, osu035_stdcells.lib
+
+Output: map.spef
+
+./rc2spef -r ./example/map.rc -l .example/osu035_stdcells.lib -s ./example/map.spef
 
 
 
@@ -63,15 +117,15 @@ python blif2def.py <blif_file_name> <lef_file_name> <utilization> <aspect_ratio>
 
 ### Inputs with examples:
 
-**Input DEF path**: (example: in.def)
+**Input DEF path**: (example: "./example/CSADD_route.def")
 
-**Input Output path**: (example: out.def)
+**Input Output path**: (example: "./example/output.def")
 
-**Input metal 1**: input metal 1 type used at ring (example: metal1)
+**Input metal 1**: input metal 1 type used at ring (example: "metal1")
 
-**Input metal 2**: input metal 2 type used at ring (example: metal2)
+**Input metal 2**: input metal 2 type used at ring (example: "metal2")
 
-**Input via**: input via type used to connect metals (example: M2_M1)
+**Input via**: input via type used to connect metals (example: "M2_M1")
 
 **Input distance from core area**: distance of output ring from core area in the def file (example: -280)
 
@@ -85,4 +139,35 @@ python blif2def.py <blif_file_name> <lef_file_name> <utilization> <aspect_ratio>
 ### Usage
 
 python sdf.py <design_name> <early_lib> <late_lib> <clk_signal> <output_ports>
+
+### Example
+
+Inputs: simple.v, simple_Early.lib, simple_Late.lib
+
+Outputs: output sdf is generated as out.sdf
+
+Command:
+
+python sdf.py simple simple_Early.lib simple_Late.lib iccad_clk out
+
+
+
+## mrouter: 
+
+### Example:
+
+Inputs:
+
+ALU6502.cfg: configuration file. contains information about LEF and DEF files, routing layers and obstructions.
+
+ALU6502_unroute.def: DEF file to be routed
+
+Output:
+
+ALU6502_unroute_route.def: routed DEF file
+ 
+mrouter -v 1 -c ./6502/ALU6502.cfg -p vdd -g gnd -q ALU6502_unroute.def
+
+mrouter can be downloaded from http://wrcad.com/freestuff.html
+
 

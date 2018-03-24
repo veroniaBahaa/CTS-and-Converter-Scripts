@@ -1,0 +1,1781 @@
+VERSION 5.6 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "<>" ;
+DESIGN step1 ;
+UNITS DISTANCE MICRONS 100 ;
+
+DIEAREA ( -480.0 -400.0 ) ( 39840.0 28400.0 ) ;
+
+TRACKS Y -400.0 DO 145 STEP 200 LAYER metal1 ;
+TRACKS X -480.0 DO 253 STEP 160.0 LAYER metal2 ;
+TRACKS Y -400.0 DO 145 STEP 200 LAYER metal3 ;
+TRACKS X -480.0 DO 127 STEP 320.0 LAYER metal4 ;
+
+COMPONENTS 947 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_5 DFFPOSX1 + PLACED ( 8720.0 100 ) FS ;
+
+- DFFPOSX1_20 DFFPOSX1 + PLACED ( 11120.0 100 ) FS ;
+
+
+
+
+
+
+
+
+- DFFPOSX1_1 DFFPOSX1 + PLACED ( 16880.0 100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_17 DFFPOSX1 + PLACED ( 26480.0 100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_15 DFFPOSX1 + PLACED ( 33200.0 100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_68 InsertBUFX2 + PLACED ( 8240.0 2100 ) N ;
+
+
+
+
+- InsertBUFX2_82 InsertBUFX2 + PLACED ( 10640.0 2100 ) FN ;
+- InsertBUFX2_83 InsertBUFX2 + PLACED ( 11120.0 2100 ) N ;
+
+
+
+- InsertBUFX2_41 InsertBUFX2 + PLACED ( 13040.0 2100 ) FN ;
+- DFFPOSX1_8 DFFPOSX1 + PLACED ( 13520.0 2100 ) N ;
+
+- InsertBUFX2_33 InsertBUFX2 + PLACED ( 15920.0 2100 ) FN ;
+- InsertBUFX2_16 InsertBUFX2 + PLACED ( 16400.0 2100 ) N ;
+- InsertBUFX2_32 InsertBUFX2 + PLACED ( 16880.0 2100 ) N ;
+- InsertBUFX2_64 InsertBUFX2 + PLACED ( 17360.0 2100 ) FN ;
+
+
+
+
+- InsertBUFX2_1 InsertBUFX2 + PLACED ( 19760.0 2100 ) FN ;
+
+
+
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_40 InsertBUFX2 + PLACED ( 26000.0 2100 ) N ;
+- InsertBUFX2_80 InsertBUFX2 + PLACED ( 26480.0 2100 ) FN ;
+
+
+
+
+- InsertBUFX2_81 InsertBUFX2 + PLACED ( 28880.0 2100 ) N ;
+- DFFPOSX1_18 DFFPOSX1 + PLACED ( 29360.0 2100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_45 DFFPOSX1 + PLACED ( 4400.0 4100 ) FS ;
+
+- DFFPOSX1_6 DFFPOSX1 + PLACED ( 6800.0 4100 ) FS ;
+- InsertBUFX2_69 InsertBUFX2 + PLACED ( 8720.0 4100 ) S ;
+
+
+
+- InsertBUFX2_34 InsertBUFX2 + PLACED ( 10640.0 4100 ) S ;
+
+
+
+
+
+
+- InsertBUFX2_71 InsertBUFX2 + PLACED ( 14000.0 4100 ) S ;
+- InsertBUFX2_35 InsertBUFX2 + PLACED ( 14480.0 4100 ) S ;
+
+- InsertBUFX2_17 InsertBUFX2 + PLACED ( 15440.0 4100 ) S ;
+- InsertBUFX2_67 InsertBUFX2 + PLACED ( 15920.0 4100 ) FS ;
+- DFFPOSX1_4 DFFPOSX1 + PLACED ( 16400.0 4100 ) FS ;
+
+
+
+- InsertBUFX2_8 InsertBUFX2 + PLACED ( 19760.0 4100 ) S ;
+
+
+
+
+
+
+
+- InsertBUFX2_20 InsertBUFX2 + PLACED ( 23600.0 4100 ) FS ;
+
+
+
+
+
+
+- InsertBUFX2_38 InsertBUFX2 + PLACED ( 26960.0 4100 ) S ;
+- DFFPOSX1_9 DFFPOSX1 + PLACED ( 27440.0 4100 ) FS ;
+- InsertBUFX2_72 InsertBUFX2 + PLACED ( 29360.0 4100 ) FS ;
+- InsertBUFX2_19 InsertBUFX2 + PLACED ( 29840.0 4100 ) FS ;
+
+- InsertBUFX2_39 InsertBUFX2 + PLACED ( 30800.0 4100 ) FS ;
+
+
+
+
+- InsertBUFX2_78 InsertBUFX2 + PLACED ( 33200.0 4100 ) FS ;
+- InsertBUFX2_79 InsertBUFX2 + PLACED ( 33680.0 4100 ) FS ;
+
+
+
+
+
+- DFFPOSX1_16 DFFPOSX1 + PLACED ( 36560.0 4100 ) FS ;
+
+
+
+
+- DFFPOSX1_48 DFFPOSX1 + PLACED ( 1040.0 6100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_19 DFFPOSX1 + PLACED ( 9680.0 6100 ) N ;
+
+
+
+- InsertBUFX2_66 InsertBUFX2 + PLACED ( 13040.0 6100 ) FN ;
+
+
+
+
+
+
+- InsertBUFX2_70 InsertBUFX2 + PLACED ( 16400.0 6100 ) N ;
+
+
+
+
+- InsertBUFX2_3 InsertBUFX2 + PLACED ( 18800.0 6100 ) FN ;
+- InsertBUFX2_65 InsertBUFX2 + PLACED ( 19280.0 6100 ) N ;
+
+- InsertBUFX2_2 InsertBUFX2 + PLACED ( 20240.0 6100 ) N ;
+- InsertBUFX2_4 InsertBUFX2 + PLACED ( 20720.0 6100 ) N ;
+- InsertBUFX2_5 InsertBUFX2 + PLACED ( 21200.0 6100 ) N ;
+
+
+- InsertBUFX2_9 InsertBUFX2 + PLACED ( 22640.0 6100 ) N ;
+- InsertBUFX2_73 InsertBUFX2 + PLACED ( 23120.0 6100 ) N ;
+
+
+
+
+- InsertBUFX2_36 InsertBUFX2 + PLACED ( 25520.0 6100 ) FN ;
+- InsertBUFX2_18 InsertBUFX2 + PLACED ( 26000.0 6100 ) FN ;
+- InsertBUFX2_77 InsertBUFX2 + PLACED ( 26480.0 6100 ) FN ;
+- DFFPOSX1_14 DFFPOSX1 + PLACED ( 26960.0 6100 ) N ;
+- InsertBUFX2_76 InsertBUFX2 + PLACED ( 28880.0 6100 ) N ;
+- DFFPOSX1_13 DFFPOSX1 + PLACED ( 29360.0 6100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_108 InsertBUFX2 + PLACED ( 2480.0 8100 ) S ;
+
+
+
+- InsertBUFX2_111 InsertBUFX2 + PLACED ( 4400.0 8100 ) S ;
+- InsertBUFX2_54 InsertBUFX2 + PLACED ( 4880.0 8100 ) S ;
+
+- InsertBUFX2_55 InsertBUFX2 + PLACED ( 5840.0 8100 ) S ;
+
+
+
+
+
+
+
+- DFFPOSX1_3 DFFPOSX1 + PLACED ( 9680.0 8100 ) FS ;
+
+- DFFPOSX1_22 DFFPOSX1 + PLACED ( 12080.0 8100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_10 DFFPOSX1 + PLACED ( 20720.0 8100 ) FS ;
+
+- InsertBUFX2_10 InsertBUFX2 + PLACED ( 23120.0 8100 ) FS ;
+
+
+
+- DFFPOSX1_12 DFFPOSX1 + PLACED ( 25040.0 8100 ) FS ;
+
+- InsertBUFX2_75 InsertBUFX2 + PLACED ( 27440.0 8100 ) S ;
+- InsertBUFX2_37 InsertBUFX2 + PLACED ( 27920.0 8100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_57 DFFPOSX1 + PLACED ( 35600.0 8100 ) FS ;
+
+
+
+
+
+
+
+- DFFPOSX1_46 DFFPOSX1 + PLACED ( 2000.0 10100 ) N ;
+- InsertBUFX2_109 InsertBUFX2 + PLACED ( 3920.0 10100 ) FN ;
+
+
+
+
+- DFFPOSX1_47 DFFPOSX1 + PLACED ( 6320.0 10100 ) N ;
+- InsertBUFX2_110 InsertBUFX2 + PLACED ( 8240.0 10100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_7 DFFPOSX1 + PLACED ( 18800.0 10100 ) N ;
+
+
+
+
+- InsertBUFX2_21 InsertBUFX2 + PLACED ( 22640.0 10100 ) N ;
+- DFFPOSX1_2 DFFPOSX1 + PLACED ( 23120.0 10100 ) N ;
+- InsertBUFX2_11 InsertBUFX2 + PLACED ( 25040.0 10100 ) N ;
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_74 InsertBUFX2 + PLACED ( 29840.0 10100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_30 DFFPOSX1 + PLACED ( 9680.0 12100 ) FS ;
+- InsertBUFX2_27 InsertBUFX2 + PLACED ( 11600.0 12100 ) FS ;
+
+
+- InsertBUFX2_93 InsertBUFX2 + PLACED ( 13040.0 12100 ) S ;
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_85 InsertBUFX2 + PLACED ( 17840.0 12100 ) S ;
+
+- InsertBUFX2_84 InsertBUFX2 + PLACED ( 18800.0 12100 ) S ;
+- DFFPOSX1_21 DFFPOSX1 + PLACED ( 19280.0 12100 ) FS ;
+
+
+- InsertBUFX2_42 InsertBUFX2 + PLACED ( 22160.0 12100 ) S ;
+
+
+
+
+
+
+
+- DFFPOSX1_61 DFFPOSX1 + PLACED ( 26000.0 12100 ) FS ;
+
+
+
+
+
+
+
+- DFFPOSX1_11 DFFPOSX1 + PLACED ( 31280.0 12100 ) FS ;
+
+
+- InsertBUFX2_120 InsertBUFX2 + PLACED ( 34160.0 12100 ) FS ;
+- DFFPOSX1_60 DFFPOSX1 + PLACED ( 34640.0 12100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_27 DFFPOSX1 + PLACED ( 2000.0 14100 ) N ;
+
+
+
+
+
+
+
+- DFFPOSX1_42 DFFPOSX1 + PLACED ( 7280.0 14100 ) N ;
+
+- InsertBUFX2_105 InsertBUFX2 + PLACED ( 9680.0 14100 ) FN ;
+- InsertBUFX2_53 InsertBUFX2 + PLACED ( 10160.0 14100 ) FN ;
+- InsertBUFX2_26 InsertBUFX2 + PLACED ( 10640.0 14100 ) FN ;
+- InsertBUFX2_52 InsertBUFX2 + PLACED ( 11120.0 14100 ) N ;
+- InsertBUFX2_13 InsertBUFX2 + PLACED ( 11600.0 14100 ) FN ;
+- InsertBUFX2_12 InsertBUFX2 + PLACED ( 12080.0 14100 ) N ;
+- InsertBUFX2_104 InsertBUFX2 + PLACED ( 12560.0 14100 ) N ;
+
+
+
+
+- DFFPOSX1_41 DFFPOSX1 + PLACED ( 14960.0 14100 ) N ;
+- InsertBUFX2_6 InsertBUFX2 + PLACED ( 16880.0 14100 ) FN ;
+
+
+
+
+- InsertBUFX2_7 InsertBUFX2 + PLACED ( 19280.0 14100 ) N ;
+
+
+- DFFPOSX1_58 DFFPOSX1 + PLACED ( 20720.0 14100 ) N ;
+- InsertBUFX2_92 InsertBUFX2 + PLACED ( 22640.0 14100 ) FN ;
+- InsertBUFX2_46 InsertBUFX2 + PLACED ( 23120.0 14100 ) FN ;
+- InsertBUFX2_15 InsertBUFX2 + PLACED ( 23600.0 14100 ) N ;
+
+
+
+- InsertBUFX2_23 InsertBUFX2 + PLACED ( 25520.0 14100 ) FN ;
+- InsertBUFX2_47 InsertBUFX2 + PLACED ( 26000.0 14100 ) N ;
+- InsertBUFX2_121 InsertBUFX2 + PLACED ( 26480.0 14100 ) FN ;
+- InsertBUFX2_43 InsertBUFX2 + PLACED ( 26960.0 14100 ) N ;
+
+- InsertBUFX2_22 InsertBUFX2 + PLACED ( 27920.0 14100 ) N ;
+
+- InsertBUFX2_31 InsertBUFX2 + PLACED ( 28880.0 14100 ) FN ;
+
+
+
+
+
+- InsertBUFX2_30 InsertBUFX2 + PLACED ( 31760.0 14100 ) N ;
+- InsertBUFX2_60 InsertBUFX2 + PLACED ( 32240.0 14100 ) FN ;
+
+
+
+- InsertBUFX2_61 InsertBUFX2 + PLACED ( 34160.0 14100 ) N ;
+- InsertBUFX2_123 InsertBUFX2 + PLACED ( 34640.0 14100 ) FN ;
+
+- InsertBUFX2_122 InsertBUFX2 + PLACED ( 35600.0 14100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_40 DFFPOSX1 + PLACED ( 5360.0 16100 ) FS ;
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_90 InsertBUFX2 + PLACED ( 11600.0 16100 ) S ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_29 DFFPOSX1 + PLACED ( 24080.0 16100 ) FS ;
+
+
+
+- InsertBUFX2_124 InsertBUFX2 + PLACED ( 27440.0 16100 ) S ;
+
+- InsertBUFX2_62 InsertBUFX2 + PLACED ( 28400.0 16100 ) S ;
+- InsertBUFX2_45 InsertBUFX2 + PLACED ( 28880.0 16100 ) FS ;
+- InsertBUFX2_63 InsertBUFX2 + PLACED ( 29360.0 16100 ) FS ;
+
+- InsertBUFX2_126 InsertBUFX2 + PLACED ( 30320.0 16100 ) S ;
+- InsertBUFX2_127 InsertBUFX2 + PLACED ( 30800.0 16100 ) FS ;
+
+- DFFPOSX1_64 DFFPOSX1 + PLACED ( 31760.0 16100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_39 DFFPOSX1 + PLACED ( 80.0 18100 ) N ;
+
+
+- InsertBUFX2_102 InsertBUFX2 + PLACED ( 2960.0 18100 ) FN ;
+
+
+
+- InsertBUFX2_103 InsertBUFX2 + PLACED ( 4880.0 18100 ) N ;
+- DFFPOSX1_37 DFFPOSX1 + PLACED ( 5360.0 18100 ) N ;
+- InsertBUFX2_100 InsertBUFX2 + PLACED ( 7280.0 18100 ) FN ;
+- InsertBUFX2_51 InsertBUFX2 + PLACED ( 7760.0 18100 ) FN ;
+- InsertBUFX2_50 InsertBUFX2 + PLACED ( 8240.0 18100 ) FN ;
+- InsertBUFX2_106 InsertBUFX2 + PLACED ( 8720.0 18100 ) FN ;
+- InsertBUFX2_107 InsertBUFX2 + PLACED ( 9200.0 18100 ) N ;
+- InsertBUFX2_101 InsertBUFX2 + PLACED ( 9680.0 18100 ) N ;
+- InsertBUFX2_25 InsertBUFX2 + PLACED ( 10160.0 18100 ) FN ;
+- InsertBUFX2_24 InsertBUFX2 + PLACED ( 10640.0 18100 ) N ;
+- DFFPOSX1_44 DFFPOSX1 + PLACED ( 11120.0 18100 ) N ;
+
+- DFFPOSX1_38 DFFPOSX1 + PLACED ( 13520.0 18100 ) N ;
+
+- DFFPOSX1_35 DFFPOSX1 + PLACED ( 15920.0 18100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_32 DFFPOSX1 + PLACED ( 24560.0 18100 ) N ;
+- InsertBUFX2_95 InsertBUFX2 + PLACED ( 26480.0 18100 ) N ;
+
+
+- DFFPOSX1_24 DFFPOSX1 + PLACED ( 27920.0 18100 ) N ;
+- InsertBUFX2_87 InsertBUFX2 + PLACED ( 29840.0 18100 ) N ;
+- DFFPOSX1_63 DFFPOSX1 + PLACED ( 30320.0 18100 ) N ;
+- InsertBUFX2_91 InsertBUFX2 + PLACED ( 32240.0 18100 ) N ;
+- InsertBUFX2_94 InsertBUFX2 + PLACED ( 32720.0 18100 ) N ;
+
+
+
+- InsertBUFX2_44 InsertBUFX2 + PLACED ( 34640.0 18100 ) N ;
+
+
+- DFFPOSX1_59 DFFPOSX1 + PLACED ( 36080.0 18100 ) N ;
+
+
+
+- DFFPOSX1_50 DFFPOSX1 + PLACED ( 80.0 20100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_55 DFFPOSX1 + PLACED ( 8720.0 20100 ) FS ;
+
+
+
+
+
+
+
+- InsertBUFX2_49 InsertBUFX2 + PLACED ( 14000.0 20100 ) S ;
+- InsertBUFX2_48 InsertBUFX2 + PLACED ( 14480.0 20100 ) FS ;
+- InsertBUFX2_98 InsertBUFX2 + PLACED ( 14960.0 20100 ) S ;
+- DFFPOSX1_33 DFFPOSX1 + PLACED ( 15440.0 20100 ) FS ;
+- InsertBUFX2_96 InsertBUFX2 + PLACED ( 17360.0 20100 ) FS ;
+
+
+- InsertBUFX2_99 InsertBUFX2 + PLACED ( 18800.0 20100 ) FS ;
+
+
+- InsertBUFX2_97 InsertBUFX2 + PLACED ( 20240.0 20100 ) FS ;
+
+
+- DFFPOSX1_36 DFFPOSX1 + PLACED ( 21680.0 20100 ) FS ;
+
+- DFFPOSX1_34 DFFPOSX1 + PLACED ( 24080.0 20100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_88 InsertBUFX2 + PLACED ( 32720.0 20100 ) FS ;
+- DFFPOSX1_28 DFFPOSX1 + PLACED ( 33200.0 20100 ) FS ;
+
+- DFFPOSX1_25 DFFPOSX1 + PLACED ( 35600.0 20100 ) FS ;
+
+
+
+- DFFPOSX1_51 DFFPOSX1 + PLACED ( 80.0 22100 ) N ;
+
+
+
+- DFFPOSX1_43 DFFPOSX1 + PLACED ( 3440.0 22100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_14 InsertBUFX2 + PLACED ( 15440.0 22100 ) FN ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_125 InsertBUFX2 + PLACED ( 26000.0 22100 ) FN ;
+
+
+
+
+
+
+
+
+- InsertBUFX2_89 InsertBUFX2 + PLACED ( 30320.0 22100 ) FN ;
+- InsertBUFX2_86 InsertBUFX2 + PLACED ( 30800.0 22100 ) FN ;
+- DFFPOSX1_31 DFFPOSX1 + PLACED ( 31280.0 22100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_114 InsertBUFX2 + PLACED ( 2960.0 24100 ) S ;
+
+
+- InsertBUFX2_115 InsertBUFX2 + PLACED ( 4400.0 24100 ) FS ;
+- InsertBUFX2_113 InsertBUFX2 + PLACED ( 4880.0 24100 ) S ;
+- DFFPOSX1_52 DFFPOSX1 + PLACED ( 5360.0 24100 ) FS ;
+
+- InsertBUFX2_57 InsertBUFX2 + PLACED ( 7760.0 24100 ) S ;
+
+
+
+- InsertBUFX2_56 InsertBUFX2 + PLACED ( 9680.0 24100 ) FS ;
+
+
+- InsertBUFX2_28 InsertBUFX2 + PLACED ( 11120.0 24100 ) S ;
+- InsertBUFX2_112 InsertBUFX2 + PLACED ( 11600.0 24100 ) FS ;
+
+- InsertBUFX2_118 InsertBUFX2 + PLACED ( 12560.0 24100 ) S ;
+
+- InsertBUFX2_59 InsertBUFX2 + PLACED ( 13520.0 24100 ) S ;
+- InsertBUFX2_29 InsertBUFX2 + PLACED ( 14000.0 24100 ) FS ;
+- DFFPOSX1_49 DFFPOSX1 + PLACED ( 14480.0 24100 ) FS ;
+- InsertBUFX2_119 InsertBUFX2 + PLACED ( 16400.0 24100 ) FS ;
+- DFFPOSX1_56 DFFPOSX1 + PLACED ( 16880.0 24100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_62 DFFPOSX1 + PLACED ( 26000.0 24100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_23 DFFPOSX1 + PLACED ( 33680.0 24100 ) FS ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_117 InsertBUFX2 + PLACED ( 14480.0 26100 ) FN ;
+- DFFPOSX1_54 DFFPOSX1 + PLACED ( 14960.0 26100 ) N ;
+- InsertBUFX2_58 InsertBUFX2 + PLACED ( 16880.0 26100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+- InsertBUFX2_116 InsertBUFX2 + PLACED ( 22640.0 26100 ) N ;
+- DFFPOSX1_53 DFFPOSX1 + PLACED ( 23120.0 26100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- DFFPOSX1_26 DFFPOSX1 + PLACED ( 31760.0 26100 ) N ;
+
+
+
+
+
+
+
+
+
+
+
+END COMPONENTS
+
+PINS 36 ;
+- clk + NET clk
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 19840.0 -200.0 ) N ;
+- rst + NET rst
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 16480.0 -200.0 ) N ;
+- x<0> + NET x<0>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 2720.0 28400.0 ) N ;
+- x<1> + NET x<1>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 14400.0 ) N ;
+- x<2> + NET x<2>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( 39680.0 11600.0 ) N ;
+- x<3> + NET x<3>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 16960.0 28400.0 ) N ;
+- x<4> + NET x<4>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 13000.0 ) N ;
+- x<5> + NET x<5>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 5760.0 28400.0 ) N ;
+- x<6> + NET x<6>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 12600.0 ) N ;
+- x<7> + NET x<7>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 4800.0 ) N ;
+- x<8> + NET x<8>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 16200.0 ) N ;
+- x<9> + NET x<9>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 10200.0 ) N ;
+- x<10> + NET x<10>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( 39680.0 17200.0 ) N ;
+- x<11> + NET x<11>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( 39680.0 3600.0 ) N ;
+- x<12> + NET x<12>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 25400.0 ) N ;
+- x<13> + NET x<13>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( 39680.0 15600.0 ) N ;
+- x<14> + NET x<14>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 11400.0 ) N ;
+- x<15> + NET x<15>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( 39680.0 18600.0 ) N ;
+- x<16> + NET x<16>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 24480.0 -200.0 ) N ;
+- x<17> + NET x<17>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 34560.0 28400.0 ) N ;
+- x<18> + NET x<18>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 11200.0 ) N ;
+- x<19> + NET x<19>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 25920.0 28400.0 ) N ;
+- x<20> + NET x<20>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 22200.0 ) N ;
+- x<21> + NET x<21>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( 39680.0 3400.0 ) N ;
+- x<22> + NET x<22>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( 39680.0 10400.0 ) N ;
+- x<23> + NET x<23>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 14200.0 ) N ;
+- x<24> + NET x<24>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 24200.0 ) N ;
+- x<25> + NET x<25>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 12640.0 28400.0 ) N ;
+- x<26> + NET x<26>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 2880.0 28400.0 ) N ;
+- x<27> + NET x<27>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 26200.0 ) N ;
+- x<28> + NET x<28>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 39360.0 28400.0 ) N ;
+- x<29> + NET x<29>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 16400.0 ) N ;
+- x<30> + NET x<30>
++ LAYER metal2 ( 0 0 ) ( 1 1 )
++ PLACED ( 19360.0 28400.0 ) N ;
+- x<31> + NET x<31>
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 10400.0 ) N ;
+- y + NET y
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( 39680.0 4400.0 ) N ;
+- p + NET p
++ LAYER metal3 ( 0 0 ) ( 1 1 )
++ PLACED ( -160.0 15000.0 ) N ;
+END PINS
+
+NETS 1803 ;
+- a6_1
+( InsertBUFX2_64 Y )
+( DFFPOSX1_1 CLK ) ;
+- $genblock$SPM.v:97$24<1>.csa.sc_FF_INPUT
+( DFFPOSX1_1 D ) ;
+- $genblock$SPM.v:97$24<1>.csa.sc
+( DFFPOSX1_1 Q ) ;
+- a6_2
+( InsertBUFX2_65 Y )
+( DFFPOSX1_2 CLK ) ;
+- $genblock$SPM.v:97$24<1>.csa.sum_FF_INPUT
+( DFFPOSX1_2 D ) ;
+- $genblock$SPM.v:97$24<1>.csa.sum
+( DFFPOSX1_2 Q ) ;
+- a6_3
+( InsertBUFX2_66 Y )
+( DFFPOSX1_3 CLK ) ;
+- $genblock$SPM.v:97$25<2>.csa.sc_FF_INPUT
+( DFFPOSX1_3 D ) ;
+- $genblock$SPM.v:97$25<2>.csa.sc
+( DFFPOSX1_3 Q ) ;
+- a6_4
+( InsertBUFX2_67 Y )
+( DFFPOSX1_4 CLK ) ;
+- $genblock$SPM.v:97$25<2>.csa.sum_FF_INPUT
+( DFFPOSX1_4 D ) ;
+- $genblock$SPM.v:97$24<1>.csa.y
+( DFFPOSX1_4 Q ) ;
+- a6_5
+( InsertBUFX2_68 Y )
+( DFFPOSX1_5 CLK ) ;
+- $genblock$SPM.v:97$26<3>.csa.sc_FF_INPUT
+( DFFPOSX1_5 D ) ;
+- $genblock$SPM.v:97$26<3>.csa.sc
+( DFFPOSX1_5 Q ) ;
+- a6_6
+( InsertBUFX2_69 Y )
+( DFFPOSX1_6 CLK ) ;
+- $genblock$SPM.v:97$26<3>.csa.sum_FF_INPUT
+( DFFPOSX1_6 D ) ;
+- $genblock$SPM.v:97$25<2>.csa.y
+( DFFPOSX1_6 Q ) ;
+- a6_7
+( InsertBUFX2_70 Y )
+( DFFPOSX1_7 CLK ) ;
+- $genblock$SPM.v:97$27<4>.csa.sc_FF_INPUT
+( DFFPOSX1_7 D ) ;
+- $genblock$SPM.v:97$27<4>.csa.sc
+( DFFPOSX1_7 Q ) ;
+- a6_8
+( InsertBUFX2_71 Y )
+( DFFPOSX1_8 CLK ) ;
+- $genblock$SPM.v:97$27<4>.csa.sum_FF_INPUT
+( DFFPOSX1_8 D ) ;
+- $genblock$SPM.v:97$26<3>.csa.y
+( DFFPOSX1_8 Q ) ;
+- a6_9
+( InsertBUFX2_72 Y )
+( DFFPOSX1_9 CLK ) ;
+- $genblock$SPM.v:97$28<5>.csa.sc_FF_INPUT
+( DFFPOSX1_9 D ) ;
+- $genblock$SPM.v:97$28<5>.csa.sc
+( DFFPOSX1_9 Q ) ;
+- a6_10
+( InsertBUFX2_73 Y )
+( DFFPOSX1_10 CLK ) ;
+- $genblock$SPM.v:97$28<5>.csa.sum_FF_INPUT
+( DFFPOSX1_10 D ) ;
+- $genblock$SPM.v:97$27<4>.csa.y
+( DFFPOSX1_10 Q ) ;
+- a6_11
+( InsertBUFX2_74 Y )
+( DFFPOSX1_11 CLK ) ;
+- $genblock$SPM.v:97$29<6>.csa.sc_FF_INPUT
+( DFFPOSX1_11 D ) ;
+- $genblock$SPM.v:97$29<6>.csa.sc
+( DFFPOSX1_11 Q ) ;
+- a6_12
+( InsertBUFX2_75 Y )
+( DFFPOSX1_12 CLK ) ;
+- $genblock$SPM.v:97$29<6>.csa.sum_FF_INPUT
+( DFFPOSX1_12 D ) ;
+- $genblock$SPM.v:97$28<5>.csa.y
+( DFFPOSX1_12 Q ) ;
+- a6_13
+( InsertBUFX2_76 Y )
+( DFFPOSX1_13 CLK ) ;
+- $genblock$SPM.v:97$30<7>.csa.sc_FF_INPUT
+( DFFPOSX1_13 D ) ;
+- $genblock$SPM.v:97$30<7>.csa.sc
+( DFFPOSX1_13 Q ) ;
+- a6_14
+( InsertBUFX2_77 Y )
+( DFFPOSX1_14 CLK ) ;
+- $genblock$SPM.v:97$30<7>.csa.sum_FF_INPUT
+( DFFPOSX1_14 D ) ;
+- $genblock$SPM.v:97$29<6>.csa.y
+( DFFPOSX1_14 Q ) ;
+- a6_15
+( InsertBUFX2_78 Y )
+( DFFPOSX1_15 CLK ) ;
+- $genblock$SPM.v:97$31<8>.csa.sc_FF_INPUT
+( DFFPOSX1_15 D ) ;
+- $genblock$SPM.v:97$31<8>.csa.sc
+( DFFPOSX1_15 Q ) ;
+- a6_16
+( InsertBUFX2_79 Y )
+( DFFPOSX1_16 CLK ) ;
+- $genblock$SPM.v:97$31<8>.csa.sum_FF_INPUT
+( DFFPOSX1_16 D ) ;
+- $genblock$SPM.v:97$30<7>.csa.y
+( DFFPOSX1_16 Q ) ;
+- a6_17
+( InsertBUFX2_80 Y )
+( DFFPOSX1_17 CLK ) ;
+- $genblock$SPM.v:97$32<9>.csa.sc_FF_INPUT
+( DFFPOSX1_17 D ) ;
+- $genblock$SPM.v:97$32<9>.csa.sc
+( DFFPOSX1_17 Q ) ;
+- a6_18
+( InsertBUFX2_81 Y )
+( DFFPOSX1_18 CLK ) ;
+- $genblock$SPM.v:97$32<9>.csa.sum_FF_INPUT
+( DFFPOSX1_18 D ) ;
+- $genblock$SPM.v:97$31<8>.csa.y
+( DFFPOSX1_18 Q ) ;
+- a6_19
+( InsertBUFX2_82 Y )
+( DFFPOSX1_19 CLK ) ;
+- $genblock$SPM.v:97$33<10>.csa.sc_FF_INPUT
+( DFFPOSX1_19 D ) ;
+- $genblock$SPM.v:97$33<10>.csa.sc
+( DFFPOSX1_19 Q ) ;
+- a6_20
+( InsertBUFX2_83 Y )
+( DFFPOSX1_20 CLK ) ;
+- $genblock$SPM.v:97$33<10>.csa.sum_FF_INPUT
+( DFFPOSX1_20 D ) ;
+- $genblock$SPM.v:97$32<9>.csa.y
+( DFFPOSX1_20 Q ) ;
+- a6_21
+( InsertBUFX2_84 Y )
+( DFFPOSX1_21 CLK ) ;
+- $genblock$SPM.v:97$34<11>.csa.sc_FF_INPUT
+( DFFPOSX1_21 D ) ;
+- $genblock$SPM.v:97$34<11>.csa.sc
+( DFFPOSX1_21 Q ) ;
+- a6_22
+( InsertBUFX2_85 Y )
+( DFFPOSX1_22 CLK ) ;
+- $genblock$SPM.v:97$34<11>.csa.sum_FF_INPUT
+( DFFPOSX1_22 D ) ;
+- $genblock$SPM.v:97$33<10>.csa.y
+( DFFPOSX1_22 Q ) ;
+- a6_23
+( InsertBUFX2_86 Y )
+( DFFPOSX1_23 CLK ) ;
+- $genblock$SPM.v:97$35<12>.csa.sc_FF_INPUT
+( DFFPOSX1_23 D ) ;
+- $genblock$SPM.v:97$35<12>.csa.sc
+( DFFPOSX1_23 Q ) ;
+- a6_24
+( InsertBUFX2_87 Y )
+( DFFPOSX1_24 CLK ) ;
+- $genblock$SPM.v:97$35<12>.csa.sum_FF_INPUT
+( DFFPOSX1_24 D ) ;
+- $genblock$SPM.v:97$34<11>.csa.y
+( DFFPOSX1_24 Q ) ;
+- a6_25
+( InsertBUFX2_88 Y )
+( DFFPOSX1_25 CLK ) ;
+- $genblock$SPM.v:97$36<13>.csa.sc_FF_INPUT
+( DFFPOSX1_25 D ) ;
+- $genblock$SPM.v:97$36<13>.csa.sc
+( DFFPOSX1_25 Q ) ;
+- a6_26
+( InsertBUFX2_89 Y )
+( DFFPOSX1_26 CLK ) ;
+- $genblock$SPM.v:97$36<13>.csa.sum_FF_INPUT
+( DFFPOSX1_26 D ) ;
+- $genblock$SPM.v:97$35<12>.csa.y
+( DFFPOSX1_26 Q ) ;
+- a6_27
+( InsertBUFX2_90 Y )
+( DFFPOSX1_27 CLK ) ;
+- $genblock$SPM.v:97$37<14>.csa.sc_FF_INPUT
+( DFFPOSX1_27 D ) ;
+- $genblock$SPM.v:97$37<14>.csa.sc
+( DFFPOSX1_27 Q ) ;
+- a6_28
+( InsertBUFX2_91 Y )
+( DFFPOSX1_28 CLK ) ;
+- $genblock$SPM.v:97$37<14>.csa.sum_FF_INPUT
+( DFFPOSX1_28 D ) ;
+- $genblock$SPM.v:97$36<13>.csa.y
+( DFFPOSX1_28 Q ) ;
+- a6_29
+( InsertBUFX2_92 Y )
+( DFFPOSX1_29 CLK ) ;
+- $genblock$SPM.v:97$38<15>.csa.sc_FF_INPUT
+( DFFPOSX1_29 D ) ;
+- $genblock$SPM.v:97$38<15>.csa.sc
+( DFFPOSX1_29 Q ) ;
+- a6_30
+( InsertBUFX2_93 Y )
+( DFFPOSX1_30 CLK ) ;
+- $genblock$SPM.v:97$38<15>.csa.sum_FF_INPUT
+( DFFPOSX1_30 D ) ;
+- $genblock$SPM.v:97$37<14>.csa.y
+( DFFPOSX1_30 Q ) ;
+- a6_31
+( InsertBUFX2_94 Y )
+( DFFPOSX1_31 CLK ) ;
+- $genblock$SPM.v:97$39<16>.csa.sc_FF_INPUT
+( DFFPOSX1_31 D ) ;
+- $genblock$SPM.v:97$39<16>.csa.sc
+( DFFPOSX1_31 Q ) ;
+- a6_32
+( InsertBUFX2_95 Y )
+( DFFPOSX1_32 CLK ) ;
+- $genblock$SPM.v:97$39<16>.csa.sum_FF_INPUT
+( DFFPOSX1_32 D ) ;
+- $genblock$SPM.v:97$38<15>.csa.y
+( DFFPOSX1_32 Q ) ;
+- a6_33
+( InsertBUFX2_96 Y )
+( DFFPOSX1_33 CLK ) ;
+- $genblock$SPM.v:97$40<17>.csa.sc_FF_INPUT
+( DFFPOSX1_33 D ) ;
+- $genblock$SPM.v:97$40<17>.csa.sc
+( DFFPOSX1_33 Q ) ;
+- a6_34
+( InsertBUFX2_97 Y )
+( DFFPOSX1_34 CLK ) ;
+- $genblock$SPM.v:97$40<17>.csa.sum_FF_INPUT
+( DFFPOSX1_34 D ) ;
+- $genblock$SPM.v:97$39<16>.csa.y
+( DFFPOSX1_34 Q ) ;
+- a6_35
+( InsertBUFX2_98 Y )
+( DFFPOSX1_35 CLK ) ;
+- $genblock$SPM.v:97$41<18>.csa.sc_FF_INPUT
+( DFFPOSX1_35 D ) ;
+- $genblock$SPM.v:97$41<18>.csa.sc
+( DFFPOSX1_35 Q ) ;
+- a6_36
+( InsertBUFX2_99 Y )
+( DFFPOSX1_36 CLK ) ;
+- $genblock$SPM.v:97$41<18>.csa.sum_FF_INPUT
+( DFFPOSX1_36 D ) ;
+- $genblock$SPM.v:97$40<17>.csa.y
+( DFFPOSX1_36 Q ) ;
+- a6_37
+( InsertBUFX2_100 Y )
+( DFFPOSX1_37 CLK ) ;
+- $genblock$SPM.v:97$42<19>.csa.sc_FF_INPUT
+( DFFPOSX1_37 D ) ;
+- $genblock$SPM.v:97$42<19>.csa.sc
+( DFFPOSX1_37 Q ) ;
+- a6_38
+( InsertBUFX2_101 Y )
+( DFFPOSX1_38 CLK ) ;
+- $genblock$SPM.v:97$42<19>.csa.sum_FF_INPUT
+( DFFPOSX1_38 D ) ;
+- $genblock$SPM.v:97$41<18>.csa.y
+( DFFPOSX1_38 Q ) ;
+- a6_39
+( InsertBUFX2_102 Y )
+( DFFPOSX1_39 CLK ) ;
+- $genblock$SPM.v:97$43<20>.csa.sc_FF_INPUT
+( DFFPOSX1_39 D ) ;
+- $genblock$SPM.v:97$43<20>.csa.sc
+( DFFPOSX1_39 Q ) ;
+- a6_40
+( InsertBUFX2_103 Y )
+( DFFPOSX1_40 CLK ) ;
+- $genblock$SPM.v:97$43<20>.csa.sum_FF_INPUT
+( DFFPOSX1_40 D ) ;
+- $genblock$SPM.v:97$42<19>.csa.y
+( DFFPOSX1_40 Q ) ;
+- a6_41
+( InsertBUFX2_104 Y )
+( DFFPOSX1_41 CLK ) ;
+- $genblock$SPM.v:97$44<21>.csa.sc_FF_INPUT
+( DFFPOSX1_41 D ) ;
+- $genblock$SPM.v:97$44<21>.csa.sc
+( DFFPOSX1_41 Q ) ;
+- a6_42
+( InsertBUFX2_105 Y )
+( DFFPOSX1_42 CLK ) ;
+- $genblock$SPM.v:97$44<21>.csa.sum_FF_INPUT
+( DFFPOSX1_42 D ) ;
+- $genblock$SPM.v:97$43<20>.csa.y
+( DFFPOSX1_42 Q ) ;
+- a6_43
+( InsertBUFX2_106 Y )
+( DFFPOSX1_43 CLK ) ;
+- $genblock$SPM.v:97$45<22>.csa.sc_FF_INPUT
+( DFFPOSX1_43 D ) ;
+- $genblock$SPM.v:97$45<22>.csa.sc
+( DFFPOSX1_43 Q ) ;
+- a6_44
+( InsertBUFX2_107 Y )
+( DFFPOSX1_44 CLK ) ;
+- $genblock$SPM.v:97$45<22>.csa.sum_FF_INPUT
+( DFFPOSX1_44 D ) ;
+- $genblock$SPM.v:97$44<21>.csa.y
+( DFFPOSX1_44 Q ) ;
+- a6_45
+( InsertBUFX2_108 Y )
+( DFFPOSX1_45 CLK ) ;
+- $genblock$SPM.v:97$46<23>.csa.sc_FF_INPUT
+( DFFPOSX1_45 D ) ;
+- $genblock$SPM.v:97$46<23>.csa.sc
+( DFFPOSX1_45 Q ) ;
+- a6_46
+( InsertBUFX2_109 Y )
+( DFFPOSX1_46 CLK ) ;
+- $genblock$SPM.v:97$46<23>.csa.sum_FF_INPUT
+( DFFPOSX1_46 D ) ;
+- $genblock$SPM.v:97$45<22>.csa.y
+( DFFPOSX1_46 Q ) ;
+- a6_47
+( InsertBUFX2_110 Y )
+( DFFPOSX1_47 CLK ) ;
+- $genblock$SPM.v:97$47<24>.csa.sc_FF_INPUT
+( DFFPOSX1_47 D ) ;
+- $genblock$SPM.v:97$47<24>.csa.sc
+( DFFPOSX1_47 Q ) ;
+- a6_48
+( InsertBUFX2_111 Y )
+( DFFPOSX1_48 CLK ) ;
+- $genblock$SPM.v:97$47<24>.csa.sum_FF_INPUT
+( DFFPOSX1_48 D ) ;
+- $genblock$SPM.v:97$46<23>.csa.y
+( DFFPOSX1_48 Q ) ;
+- a6_49
+( InsertBUFX2_112 Y )
+( DFFPOSX1_49 CLK ) ;
+- $genblock$SPM.v:97$48<25>.csa.sc_FF_INPUT
+( DFFPOSX1_49 D ) ;
+- $genblock$SPM.v:97$48<25>.csa.sc
+( DFFPOSX1_49 Q ) ;
+- a6_50
+( InsertBUFX2_113 Y )
+( DFFPOSX1_50 CLK ) ;
+- $genblock$SPM.v:97$48<25>.csa.sum_FF_INPUT
+( DFFPOSX1_50 D ) ;
+- $genblock$SPM.v:97$47<24>.csa.y
+( DFFPOSX1_50 Q ) ;
+- a6_51
+( InsertBUFX2_114 Y )
+( DFFPOSX1_51 CLK ) ;
+- $genblock$SPM.v:97$49<26>.csa.sc_FF_INPUT
+( DFFPOSX1_51 D ) ;
+- $genblock$SPM.v:97$49<26>.csa.sc
+( DFFPOSX1_51 Q ) ;
+- a6_52
+( InsertBUFX2_115 Y )
+( DFFPOSX1_52 CLK ) ;
+- $genblock$SPM.v:97$49<26>.csa.sum_FF_INPUT
+( DFFPOSX1_52 D ) ;
+- $genblock$SPM.v:97$48<25>.csa.y
+( DFFPOSX1_52 Q ) ;
+- a6_53
+( InsertBUFX2_116 Y )
+( DFFPOSX1_53 CLK ) ;
+- $genblock$SPM.v:97$50<27>.csa.sc_FF_INPUT
+( DFFPOSX1_53 D ) ;
+- $genblock$SPM.v:97$50<27>.csa.sc
+( DFFPOSX1_53 Q ) ;
+- a6_54
+( InsertBUFX2_117 Y )
+( DFFPOSX1_54 CLK ) ;
+- $genblock$SPM.v:97$50<27>.csa.sum_FF_INPUT
+( DFFPOSX1_54 D ) ;
+- $genblock$SPM.v:97$49<26>.csa.y
+( DFFPOSX1_54 Q ) ;
+- a6_55
+( InsertBUFX2_118 Y )
+( DFFPOSX1_55 CLK ) ;
+- $genblock$SPM.v:97$51<28>.csa.sc_FF_INPUT
+( DFFPOSX1_55 D ) ;
+- $genblock$SPM.v:97$51<28>.csa.sc
+( DFFPOSX1_55 Q ) ;
+- a6_56
+( InsertBUFX2_119 Y )
+( DFFPOSX1_56 CLK ) ;
+- $genblock$SPM.v:97$51<28>.csa.sum_FF_INPUT
+( DFFPOSX1_56 D ) ;
+- $genblock$SPM.v:97$50<27>.csa.y
+( DFFPOSX1_56 Q ) ;
+- a6_57
+( InsertBUFX2_120 Y )
+( DFFPOSX1_57 CLK ) ;
+- $genblock$SPM.v:97$52<29>.csa.sc_FF_INPUT
+( DFFPOSX1_57 D ) ;
+- $genblock$SPM.v:97$52<29>.csa.sc
+( DFFPOSX1_57 Q ) ;
+- a6_58
+( InsertBUFX2_121 Y )
+( DFFPOSX1_58 CLK ) ;
+- $genblock$SPM.v:97$52<29>.csa.sum_FF_INPUT
+( DFFPOSX1_58 D ) ;
+- $genblock$SPM.v:97$51<28>.csa.y
+( DFFPOSX1_58 Q ) ;
+- a6_59
+( InsertBUFX2_122 Y )
+( DFFPOSX1_59 CLK ) ;
+- $genblock$SPM.v:97$53<30>.csa.sc_FF_INPUT
+( DFFPOSX1_59 D ) ;
+- $genblock$SPM.v:97$53<30>.csa.sc
+( DFFPOSX1_59 Q ) ;
+- a6_60
+( InsertBUFX2_123 Y )
+( DFFPOSX1_60 CLK ) ;
+- $genblock$SPM.v:97$53<30>.csa.sum_FF_INPUT
+( DFFPOSX1_60 D ) ;
+- $genblock$SPM.v:97$52<29>.csa.y
+( DFFPOSX1_60 Q ) ;
+- a6_61
+( InsertBUFX2_124 Y )
+( DFFPOSX1_61 CLK ) ;
+- csa0.sc_FF_INPUT
+( DFFPOSX1_61 D ) ;
+- csa0.sc
+( DFFPOSX1_61 Q ) ;
+- a6_62
+( InsertBUFX2_125 Y )
+( DFFPOSX1_62 CLK ) ;
+- csa0.sum_FF_INPUT
+( DFFPOSX1_62 D ) ;
+- $auto$iopadmap.cc:313:execute$289
+( DFFPOSX1_62 Q ) ;
+- a6_63
+( InsertBUFX2_126 Y )
+( DFFPOSX1_63 CLK ) ;
+- tcmp.z_FF_INPUT
+( DFFPOSX1_63 D ) ;
+- tcmp.z
+( DFFPOSX1_63 Q ) ;
+- a6_64
+( InsertBUFX2_127 Y )
+( DFFPOSX1_64 CLK ) ;
+- tcmp.s_FF_INPUT
+( DFFPOSX1_64 D ) ;
+- $genblock$SPM.v:97$53<30>.csa.y
+( DFFPOSX1_64 Q ) ;
+- clk
+( PIN clk )
+( InsertBUFX2_1 A ) ;
+- a0_1
+( InsertBUFX2_3 A )
+( InsertBUFX2_2 A )
+( InsertBUFX2_1 Y ) ;
+- a1_1
+( InsertBUFX2_5 A )
+( InsertBUFX2_4 A )
+( InsertBUFX2_2 Y ) ;
+- a1_2
+( InsertBUFX2_7 A )
+( InsertBUFX2_6 A )
+( InsertBUFX2_3 Y ) ;
+- a2_1
+( InsertBUFX2_9 A )
+( InsertBUFX2_8 A )
+( InsertBUFX2_4 Y ) ;
+- a2_2
+( InsertBUFX2_11 A )
+( InsertBUFX2_10 A )
+( InsertBUFX2_5 Y ) ;
+- a2_3
+( InsertBUFX2_13 A )
+( InsertBUFX2_12 A )
+( InsertBUFX2_6 Y ) ;
+- a2_4
+( InsertBUFX2_15 A )
+( InsertBUFX2_14 A )
+( InsertBUFX2_7 Y ) ;
+- a3_1
+( InsertBUFX2_17 A )
+( InsertBUFX2_16 A )
+( InsertBUFX2_8 Y ) ;
+- a3_2
+( InsertBUFX2_19 A )
+( InsertBUFX2_18 A )
+( InsertBUFX2_9 Y ) ;
+- a3_3
+( InsertBUFX2_21 A )
+( InsertBUFX2_20 A )
+( InsertBUFX2_10 Y ) ;
+- a3_4
+( InsertBUFX2_23 A )
+( InsertBUFX2_22 A )
+( InsertBUFX2_11 Y ) ;
+- a3_5
+( InsertBUFX2_25 A )
+( InsertBUFX2_24 A )
+( InsertBUFX2_12 Y ) ;
+- a3_6
+( InsertBUFX2_27 A )
+( InsertBUFX2_26 A )
+( InsertBUFX2_13 Y ) ;
+- a3_7
+( InsertBUFX2_29 A )
+( InsertBUFX2_28 A )
+( InsertBUFX2_14 Y ) ;
+- a3_8
+( InsertBUFX2_31 A )
+( InsertBUFX2_30 A )
+( InsertBUFX2_15 Y ) ;
+- a4_1
+( InsertBUFX2_33 A )
+( InsertBUFX2_32 A )
+( InsertBUFX2_16 Y ) ;
+- a4_2
+( InsertBUFX2_35 A )
+( InsertBUFX2_34 A )
+( InsertBUFX2_17 Y ) ;
+- a4_3
+( InsertBUFX2_37 A )
+( InsertBUFX2_36 A )
+( InsertBUFX2_18 Y ) ;
+- a4_4
+( InsertBUFX2_39 A )
+( InsertBUFX2_38 A )
+( InsertBUFX2_19 Y ) ;
+- a4_5
+( InsertBUFX2_41 A )
+( InsertBUFX2_40 A )
+( InsertBUFX2_20 Y ) ;
+- a4_6
+( InsertBUFX2_43 A )
+( InsertBUFX2_42 A )
+( InsertBUFX2_21 Y ) ;
+- a4_7
+( InsertBUFX2_45 A )
+( InsertBUFX2_44 A )
+( InsertBUFX2_22 Y ) ;
+- a4_8
+( InsertBUFX2_47 A )
+( InsertBUFX2_46 A )
+( InsertBUFX2_23 Y ) ;
+- a4_9
+( InsertBUFX2_49 A )
+( InsertBUFX2_48 A )
+( InsertBUFX2_24 Y ) ;
+- a4_10
+( InsertBUFX2_51 A )
+( InsertBUFX2_50 A )
+( InsertBUFX2_25 Y ) ;
+- a4_11
+( InsertBUFX2_53 A )
+( InsertBUFX2_52 A )
+( InsertBUFX2_26 Y ) ;
+- a4_12
+( InsertBUFX2_55 A )
+( InsertBUFX2_54 A )
+( InsertBUFX2_27 Y ) ;
+- a4_13
+( InsertBUFX2_57 A )
+( InsertBUFX2_56 A )
+( InsertBUFX2_28 Y ) ;
+- a4_14
+( InsertBUFX2_59 A )
+( InsertBUFX2_58 A )
+( InsertBUFX2_29 Y ) ;
+- a4_15
+( InsertBUFX2_61 A )
+( InsertBUFX2_60 A )
+( InsertBUFX2_30 Y ) ;
+- a4_16
+( InsertBUFX2_63 A )
+( InsertBUFX2_62 A )
+( InsertBUFX2_31 Y ) ;
+- a5_1
+( InsertBUFX2_65 A )
+( InsertBUFX2_64 A )
+( InsertBUFX2_32 Y ) ;
+- a5_2
+( InsertBUFX2_67 A )
+( InsertBUFX2_66 A )
+( InsertBUFX2_33 Y ) ;
+- a5_3
+( InsertBUFX2_69 A )
+( InsertBUFX2_68 A )
+( InsertBUFX2_34 Y ) ;
+- a5_4
+( InsertBUFX2_71 A )
+( InsertBUFX2_70 A )
+( InsertBUFX2_35 Y ) ;
+- a5_5
+( InsertBUFX2_73 A )
+( InsertBUFX2_72 A )
+( InsertBUFX2_36 Y ) ;
+- a5_6
+( InsertBUFX2_75 A )
+( InsertBUFX2_74 A )
+( InsertBUFX2_37 Y ) ;
+- a5_7
+( InsertBUFX2_77 A )
+( InsertBUFX2_76 A )
+( InsertBUFX2_38 Y ) ;
+- a5_8
+( InsertBUFX2_79 A )
+( InsertBUFX2_78 A )
+( InsertBUFX2_39 Y ) ;
+- a5_9
+( InsertBUFX2_81 A )
+( InsertBUFX2_80 A )
+( InsertBUFX2_40 Y ) ;
+- a5_10
+( InsertBUFX2_83 A )
+( InsertBUFX2_82 A )
+( InsertBUFX2_41 Y ) ;
+- a5_11
+( InsertBUFX2_85 A )
+( InsertBUFX2_84 A )
+( InsertBUFX2_42 Y ) ;
+- a5_12
+( InsertBUFX2_87 A )
+( InsertBUFX2_86 A )
+( InsertBUFX2_43 Y ) ;
+- a5_13
+( InsertBUFX2_89 A )
+( InsertBUFX2_88 A )
+( InsertBUFX2_44 Y ) ;
+- a5_14
+( InsertBUFX2_91 A )
+( InsertBUFX2_90 A )
+( InsertBUFX2_45 Y ) ;
+- a5_15
+( InsertBUFX2_93 A )
+( InsertBUFX2_92 A )
+( InsertBUFX2_46 Y ) ;
+- a5_16
+( InsertBUFX2_95 A )
+( InsertBUFX2_94 A )
+( InsertBUFX2_47 Y ) ;
+- a5_17
+( InsertBUFX2_97 A )
+( InsertBUFX2_96 A )
+( InsertBUFX2_48 Y ) ;
+- a5_18
+( InsertBUFX2_99 A )
+( InsertBUFX2_98 A )
+( InsertBUFX2_49 Y ) ;
+- a5_19
+( InsertBUFX2_101 A )
+( InsertBUFX2_100 A )
+( InsertBUFX2_50 Y ) ;
+- a5_20
+( InsertBUFX2_103 A )
+( InsertBUFX2_102 A )
+( InsertBUFX2_51 Y ) ;
+- a5_21
+( InsertBUFX2_105 A )
+( InsertBUFX2_104 A )
+( InsertBUFX2_52 Y ) ;
+- a5_22
+( InsertBUFX2_107 A )
+( InsertBUFX2_106 A )
+( InsertBUFX2_53 Y ) ;
+- a5_23
+( InsertBUFX2_109 A )
+( InsertBUFX2_108 A )
+( InsertBUFX2_54 Y ) ;
+- a5_24
+( InsertBUFX2_111 A )
+( InsertBUFX2_110 A )
+( InsertBUFX2_55 Y ) ;
+- a5_25
+( InsertBUFX2_113 A )
+( InsertBUFX2_112 A )
+( InsertBUFX2_56 Y ) ;
+- a5_26
+( InsertBUFX2_115 A )
+( InsertBUFX2_114 A )
+( InsertBUFX2_57 Y ) ;
+- a5_27
+( InsertBUFX2_117 A )
+( InsertBUFX2_116 A )
+( InsertBUFX2_58 Y ) ;
+- a5_28
+( InsertBUFX2_119 A )
+( InsertBUFX2_118 A )
+( InsertBUFX2_59 Y ) ;
+- a5_29
+( InsertBUFX2_121 A )
+( InsertBUFX2_120 A )
+( InsertBUFX2_60 Y ) ;
+- a5_30
+( InsertBUFX2_123 A )
+( InsertBUFX2_122 A )
+( InsertBUFX2_61 Y ) ;
+- a5_31
+( InsertBUFX2_125 A )
+( InsertBUFX2_124 A )
+( InsertBUFX2_62 Y ) ;
+- a5_32
+( InsertBUFX2_127 A )
+( InsertBUFX2_126 A )
+( InsertBUFX2_63 Y ) ;
+END NETS
+END DESIGN

@@ -1,0 +1,10 @@
+Usage: prog -f filename.aux
+       prog -help
+
+Example:
+
+Inputs: ibm02.def, ibm02.lef, ibm02.aux
+Output: out.def
+Command:
+./MetaPl-Capo10-Lnx64.exe -f ibm02.aux -save out
+
